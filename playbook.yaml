@@ -3,8 +3,7 @@
     hosts: localhost
     gather_facts: yes
     vars:
-      custom_heading: "Welcome To DevOps Training B15 By Sreeharsha Veerapalli - Testing AWX"
-      todays_date: "{{ ansible_facts['date_time']['date'] }}"
+      custom_heading: "Welcome To AWS Training B34 By Siva Krishna'] }}"
       host_name: "{{ ansible_facts['hostname'] }}"
       fqdn_name: "{{ ansible_facts['fqdn'] }}"
       ip_address: "{{ ansible_facts['eth0']['ipv4']['address'] }}"
